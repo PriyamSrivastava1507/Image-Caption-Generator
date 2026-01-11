@@ -59,4 +59,17 @@ Ensure your folder structure matches the configuration in `main.py`.
   └── README.md
   ```
 
-## 
+## Usage
+Download the Data: Go to the Flickr8k Kaggle Page, download the archive, and extract it into the dataset/ folder.
+
+### Run the Script:
+
+  ```bash
+  python main.py
+  ```
+
+## Process:
+
+* **Feature Extraction:** The script will first pass all images through InceptionV3 to extract features (this happens once).
+* **Training:** The model trains for 15 epochs.
+* **Prediction:** The script will output generated captions for 5 random test images.
