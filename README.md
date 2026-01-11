@@ -51,7 +51,7 @@ Ensure your folder structure matches the configuration in `main.py`.
   ```text
   Image-Caption_Generator/
   │
-  ├── dataset/
+  ├── kaggle/
   │   ├── Images/           <-- Extract the 8091 images from Kaggle here
   │   └── captions.txt      <-- Place the captions.txt file here
   │
@@ -60,7 +60,7 @@ Ensure your folder structure matches the configuration in `main.py`.
   ```
 
 ## Usage
-Download the Data: Go to the Flickr8k Kaggle Page, download the archive, and extract it into the dataset/ folder.
+Download the Data: Go to the Flickr8k Kaggle Page, download the archive, and extract it into the kaggle/ folder.
 
 ### Run the Script:
 
